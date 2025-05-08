@@ -1,0 +1,157 @@
+a {
+  text-decoration: none;
+}
+
+.burger-wrapper {
+  position: fixed;
+  top: 65px;
+  left: 60px;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+.sidebar-menu {
+  height: 100vh;
+  width: 30vw;
+
+  position: fixed;
+  top: 0;
+  left: -30vw;
+
+  background-color: var(--light_lilac);
+  z-index: 1002;
+
+  padding: 40px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+
+  transition: left 0.3s ease;
+}
+
+.sidebar-menu.open {
+  left: 0;
+}
+
+.menu_top {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 30px;
+}
+
+.menu_accountlink {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.menu_accountimg {
+  width: 70px;
+  height: 70px;
+
+  background-color: var(--light_blue);
+  border-radius: 23px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_accountinitials {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--light_lilac);
+}
+
+.menu_accountinfo {
+  padding: 10px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.menu_name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--black);
+}
+
+.menu_username {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--gray);
+}
+
+.menu_links {
+  width: 100%;
+
+  padding-right: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 30px;
+}
+
+.menu_link {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_leftlink {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.menu_iconlink {
+  width: 30px;
+  height: 30px;
+
+  fill: var(--black);
+}
+
+.menu_titlelink {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--black);
+}
+
+.menu_arrowlink {
+  width: 14px;
+  height: 24px;
+
+  fill: var(--black);
+}
+
+.menu_logoutlink {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 15px;
+}

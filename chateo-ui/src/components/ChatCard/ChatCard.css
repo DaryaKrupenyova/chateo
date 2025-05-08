@@ -1,0 +1,116 @@
+.chatcard_a {
+  text-decoration: none;
+}
+
+.chatcard_a:hover .chatcard_main {
+  background-color: var(--light_lilac);
+}
+
+.chatcard_main {
+  padding: 15px 120px 15px 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.chatcard_img {
+  width: 94px;
+  height: 94px;
+
+  background-color: var(--light_blue);
+  border-radius: 31px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatcard_initials {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--light_lilac);
+}
+
+.chatcard_info {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15px;
+}
+
+.chatcard_top_info {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.chatcard_name {
+  margin: 0;
+
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--black);
+}
+
+.chatcard_timestamp {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--gray);
+}
+
+.chatcard_bottom_info {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.chatcard_message {
+  height: 30px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--gray);
+}
+
+.chatcard_top_info {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.chatcard_unread {
+  width: 30px;
+  height: 30px;
+
+  background-color: var(--lilac);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatcard_unread_count {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--black);
+}

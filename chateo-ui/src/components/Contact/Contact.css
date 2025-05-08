@@ -1,0 +1,41 @@
+.contact_main:hover {
+  background-color: var(--light_lilac);
+}
+
+.contact_main {
+  padding: 15px 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.contact_img {
+  width: 94px;
+  height: 94px;
+
+  background-color: var(--light_blue);
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_initials {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--light_lilac);
+}
+
+.contact_h2 {
+  margin: 0;
+
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--black);
+}

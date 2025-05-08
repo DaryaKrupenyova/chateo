@@ -1,0 +1,25 @@
+:root {
+  --black: #0f1828;
+  --light_black: #152033;
+  --blue: #002de3;
+  --indigo: #375fff;
+  --light_blue: #166ff6;
+  --light_red: #e3abac;
+  --gray: #adb5bd;
+  --lilac: #d2d5f9;
+  --light_lilac: #f7f7fc;
+  --white: #ffffff;
+}
+
+html {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

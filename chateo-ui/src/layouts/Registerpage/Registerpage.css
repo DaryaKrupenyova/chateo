@@ -1,0 +1,134 @@
+.register_main {
+  height: 100dvh;
+
+  background-color: var(--white);
+
+  padding: 50px;
+  padding-bottom: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register_logo {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  column-gap: 15px;
+}
+
+.register_logoicon {
+  width: 50px;
+  height: 50px;
+
+  fill: var(--blue);
+}
+
+.register_h1 {
+  margin: 0;
+
+  font-size: 3.13rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--blue);
+}
+
+.register_body {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 70px;
+}
+
+.register_img {
+  width: 263px;
+  height: 239px;
+}
+
+.register_inputs {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.register_input {
+  width: 100%;
+
+  position: relative;
+}
+
+.pr {
+  padding-right: 60px;
+}
+
+.register_svgs {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.register_eye_svg {
+  width: 30px;
+  height: 30px;
+
+  fill: var(--gray);
+  cursor: pointer;
+}
+
+.register_error {
+  position: absolute;
+  left: 50px;
+  bottom: -25px;
+}
+
+.register_error_text {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--light_red);
+}
+
+.register_buttons {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.register_button {
+  width: 100%;
+
+  background-color: var(--blue);
+  border-radius: 35px;
+  border: 0;
+
+  padding: 15px 0px;
+
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  color: var(--light_lilac);
+}
+
+.register_registerlink {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  color: var(--blue);
+}
